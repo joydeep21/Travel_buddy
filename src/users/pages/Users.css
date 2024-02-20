@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input {
+  width: auto;
+  width: 90%;
+  height: 3em;
+  border-radius: 15px;
+  border: 2px solid var(--primary-text-color);
+  gap: 1.5rem;
+  padding: 2.28% 4.8%;
+  margin: 0.5rem 0;
+  display: flex;
+}
+
+@media screen and (min-width: 769px) {
+  .search-input {
+    padding: 1.5% 2.2%;
+    width: 43.3em;
+    max-width: 64vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .search-input {
+    margin-left: 16rem;
+  }
+}
