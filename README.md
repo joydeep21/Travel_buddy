@@ -1,1 +1,1 @@
-# Travel_buddy
+# Travel_buddy_frontend
